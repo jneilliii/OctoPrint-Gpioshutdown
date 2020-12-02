@@ -24,6 +24,6 @@ $(function() {
         // ViewModels your plugin depends on, e.g. loginStateViewModel, settingsViewModel, ...
         dependencies: [ /* "loginStateViewModel", "settingsViewModel" */ ],
         // Elements to bind to, e.g. #settings_plugin_GPIOShutdown, #tab_plugin_GPIOShutdown, ...
-        elements: [ /* ... */ ]
+        elements: [ "#settings_plugin_GPIOShutdown" ]
     });
 });
